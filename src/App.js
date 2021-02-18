@@ -32,5 +32,5 @@ const Technologies = () => {
         </div>
     );
 }
-asd
+asdasdasd
 export default App;
