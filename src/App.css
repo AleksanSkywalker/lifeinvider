@@ -1,3 +1,14 @@
-ul li {
-  list-style-type: armenian;
+.app-wrapper {
+    display: grid;
+    grid-template-areas:
+  "he he"
+  "na co";
+    grid-template-rows: 80px;
+    grid-template-columns: 2fr 10fr;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.app-wrapper-content {
+
 }
