@@ -1,12 +1,14 @@
 import React from 'react'
 import s from './../Dialogs.module.css'
-import DialogItem from "../DialogItem/DialogItem";
+// import DialogItem from "../DialogItem/DialogItem";
 
 const Message = (props) => {
-
+// debugger
     return (
-        <div className={s.dialog}>
-            {props.message}
+        <div>
+            <div className={s.dialog}>
+                {props.message}
+            </div>
         </div>
     )
 }
