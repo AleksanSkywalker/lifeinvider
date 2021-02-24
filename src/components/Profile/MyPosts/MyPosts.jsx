@@ -3,15 +3,15 @@ import s from './MyPosts.module.css'
 import Post from "./Post/Post";
 
 const MyPosts = (props) => {
-// debugger
-    let postsElements = props.posts.map ( p => <Post message={p.message} like={p.like}/>);
+    let postsElements =
+        props.posts.map ( p => <Post message={p.message} like={p.like}/>);
 
     let newPostElement = React.createRef();
 
     let addPost = () => {
-        debugger;
         let text = newPostElement.current.value;
         props.addPost(text);
+        newPostElement.current.value = '';
     }
 
     return (
